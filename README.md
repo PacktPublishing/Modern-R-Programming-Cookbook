@@ -1,43 +1,33 @@
-# TypeScript High Performance
-This is the code repository for [TypeScript High Performance](https://www.packtpub.com/application-development/typescript-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781785288647), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+# Modern R Programming Cookbook
+This is the code repository for [Modern R Programming Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/learning-r-programming?utm_source=github&utm_medium=repository&utm_campaign=9781785889776), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-In a world where a tiny decrease in frames per second impacts customer engagement greatly, writing highly scalable code is more of a necessity than a luxury. Using TypeScript you get type checking during development. This gives you the power to write optimized code quickly. This book is also a solid tool to those who’re curious to understand the impact of performance in production, and it is of the greatest aid to the proactive developers who like to be cognizant of and avoid the classic pitfalls while coding.
-
+R is a powerful tool for statistics, graphics, and statistical programming. It is used by tens of thousands of people daily to perform serious statistical analyses. It is a free, open source system whose implementation is the collective accomplishment of many intelligent, hard-working people. There are more than 2,000 available add-ons, and R is a serious rival to all commercial statistical packages. The objective of this book is to show how to work with different programming aspects of R. The emerging R developers and data science could have very good programming knowledge but might have limited understanding about R syntax and semantics. Our book will be a platform develop practical solution out of real world problem in scalable fashion and with very good understanding. You will work with various versions of R libraries that are essential for scalable data science solutions. You will learn to work with Input / Output issues when working with relatively larger dataset. At the end of this book readers will also learn how to work with databases from within R and also what and how meta programming helps in developing applications.
 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-
+Chapter 1 does not contain any code.
 
 The code will look like the following:
 ```
-export enum FeedStrategy { Recent, Popular, MediaOnly };
-
-    export interface IFeed { ... };
-
-    export interface IFeedGenerator { ... };
-
-    export function FeedGeneratorFactory(feedStrategy: FeedStrategy,  
-    universalKey: string): IFeedGenerator { ... }
+M1 <- matrix(1:9, nrow=3, ncol= 3, byrow=TRUE)
+    D1 <- data.frame(x1= c(1,3,2,4,5), x2= c("Cricket",    "Football",  "Basketball", "Rugby", "Baseball" ))
 ```
 
-The book requires the following things:
+This book requires the following to be set up:
 
-Node and NPM
-TypeScript
-Mocha Test Framework
-Chai Assertion Library
-Windows, Linux, or MacOS
- Modern browsers--Chrome, Edge, and IE
-Telerik Fiddler
-Frontend editor--preferably VS Code or Atom/Sublime Text
+Base R
+RStudio IDE
+Microsoft R Client
+R tools for Visual Studio
+PostgreSQL database server
 
 ## Related Products
-* [Building Pro Web Apps with TypeScript 2.x [Video]](https://www.packtpub.com/application-development/building-pro-web-apps-typescript-2x-video?utm_source=github&utm_medium=repository&utm_campaign=9781788292054)
+* [Fundamentals of R Programming and Statistical Analysis [Video]](https://www.packtpub.com/big-data-and-business-intelligence/fundamentals-r-programming-and-statistical-analysis-video?utm_source=github&utm_medium=repository&utm_campaign=9781782175247)
 
-* [Rapid Web Application Development with TypeScript 2.x [Video]](https://www.packtpub.com/application-development/rapid-web-application-development-typescript-2x-video?utm_source=github&utm_medium=repository&utm_campaign=9781787287389)
+* [R: Programming and Data Science](https://www.packtpub.com/big-data-and-business-intelligence/r-programming-and-data-science?utm_source=github&utm_medium=repository&utm_campaign=9781788471725)
 
-* [Angular 2 Web Development with TypeScript [Video]](https://www.packtpub.com/web-development/angular-2-web-development-typescript-video?utm_source=github&utm_medium=repository&utm_campaign=9781785885563)
+* [Learning R Programming](https://www.packtpub.com/big-data-and-business-intelligence/learning-r-programming?utm_source=github&utm_medium=repository&utm_campaign=9781785889776)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
