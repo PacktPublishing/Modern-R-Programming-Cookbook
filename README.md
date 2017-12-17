@@ -28,6 +28,3 @@ PostgreSQL database server
 * [R: Programming and Data Science](https://www.packtpub.com/big-data-and-business-intelligence/r-programming-and-data-science?utm_source=github&utm_medium=repository&utm_campaign=9781788471725)
 
 * [Learning R Programming](https://www.packtpub.com/big-data-and-business-intelligence/learning-r-programming?utm_source=github&utm_medium=repository&utm_campaign=9781785889776)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
